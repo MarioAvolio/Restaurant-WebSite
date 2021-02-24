@@ -400,6 +400,10 @@ img {
     text-align: center;
 }
 
+.contact__elem{
+    padding-top: 15px;
+}
+
 .contact__data span {
     font-size: large;
 }
