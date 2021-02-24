@@ -15,7 +15,10 @@
   --container-color: #FFFFFF;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Merriweather', serif;
+  --h2-h3-font: 'Montserrat', sans-serif;
+  --h1-font: 'Sacramento', cursive;
+
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -91,6 +94,14 @@ body{
 
 h1,h2,h3,p,ul{
   margin: 0;
+}
+
+h1{
+  font-family: var(--h1-font);
+}
+
+h2,h3{
+  font-family: var(--h2-h3-font);
 }
 
 ul{
@@ -376,29 +387,6 @@ img{
   border-radius: .5rem 0 .5rem 0;
 }
 
-/*========== APP ==========*/
-.app__data{
-  text-align: center;
-}
-
-.app__description{
-  margin-bottom: var(--mb-5);
-}
-
-.app__stores{
-  margin-bottom: var(--mb-4);
-}
-
-.app__store{
-  width: 120px;
-  margin: 0 var(--mb-1);
-}
-
-.app__img{
-  width: 230px;
-  justify-self: center;
-}
-
 /*========== CONTACT ==========*/
 .contact__container{
   text-align: center;
@@ -406,6 +394,14 @@ img{
 
 .contact__description{
   margin-bottom: var(--mb-3);
+}
+
+.whatsapp{
+  text-align: center;
+}
+
+.whatsapp span{
+  font-size: x-large;
 }
 
 /*========== FOOTER ==========*/
