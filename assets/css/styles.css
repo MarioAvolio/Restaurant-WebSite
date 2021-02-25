@@ -80,7 +80,7 @@ body.dark-theme {
     --text-color: #eeeeee;
     --text-color-light: #eeeeee;
     --body-color: #222831;
-    --container-color: #222831;
+    --container-color: #393e46;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -110,7 +110,7 @@ h1 {
     font-family: var(--h1-font);
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-family: var(--h2-h3-font);
 }
 
@@ -121,7 +121,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:var(--text-color);
+    color: var(--text-color);
 }
 
 img {
