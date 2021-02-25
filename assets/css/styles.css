@@ -12,7 +12,7 @@
     --text-color: #112d4e;
     --text-color-light: #3f72af;
     --body-color: #f9f7f7;
-    --container-color: #f9f7f7;
+    --container-color: #fff;
 
     /*========== Font and typography ==========*/
     --body-font: 'Merriweather', serif;
@@ -67,13 +67,6 @@ html {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-    /*--title-color: #F1F3F2;*/
-    /*--text-color: #C7D1CC;*/
-    /*--body-color: #1D2521;*/
-    /*--container-color: #27302C;*/
-    /*--first-color: #069C54;*/
-    /*--first-color-alt: #048654;*/
-
     --first-color: #00adb5;
     --first-color-alt: #393e46;
     --title-color: #eeeeee;
@@ -396,6 +389,11 @@ img {
     display: flex;
     padding: .625rem .813rem;
     border-radius: .5rem 0 .5rem 0;
+}
+
+.typeMenu{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /*========== CONTACT ==========*/
