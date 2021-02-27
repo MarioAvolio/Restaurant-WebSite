@@ -474,8 +474,8 @@ img {
 
 .location
 {
-    color: #109648;
-    border: 1px solid #109648;
+    color: #fa1e0e;
+    border: 1px solid #fa1e0e;
 }
 
 .location:hover
@@ -486,22 +486,130 @@ img {
 
 @keyframes locationAnim {
     50% {
-        background-color: #109648;
+        background-color: #fa1e0e;
     }
     100% {
-        background-color: #109648;
-        border: 1px solid #109648;
+        background-color: #fa1e0e;
+        border: 1px solid #fa1e0e;
         color: #fff;
     }
 }
 
 @-webkit-keyframes locationAnim {
     50% {
-        background-color: #109648;
+        background-color: #fa1e0e;
     }
     100% {
-        background-color: #109648;
-        border: 1px solid #109648;
+        background-color: #fa1e0e;
+        border: 1px solid #fa1e0e;
+        color: #fff;
+    }
+}
+
+/*whatsapp*/
+.whatsapp
+{
+    color: #25D366;
+    border: 1px solid #25D366;
+}
+
+.whatsapp:hover
+{
+    animation: whatsappAnim 0.4s normal forwards linear;
+    -webkit-animation: whatsappAnim 0.4s normal forwards linear;
+}
+
+@keyframes whatsappAnim {
+    50% {
+        background-color: #25D366;
+    }
+    100% {
+        background-color: #25D366;
+        border: 1px solid #25D366;
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes whatsappAnim {
+    50% {
+        background-color: #25D366;
+    }
+    100% {
+        background-color: #25D366;
+        border: 1px solid #25D366;
+        color: #fff;
+    }
+}
+
+/*email*/
+
+.email
+{
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.email:hover
+{
+    animation: emailAnim 0.4s normal forwards linear;
+    -webkit-animation: emailAnim 0.4s normal forwards linear;
+}
+
+@keyframes emailAnim {
+    50% {
+        background-color: #000000;
+    }
+    100% {
+        background-color: #000000;
+        border: 1px solid #000000;
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes emailAnim {
+    50% {
+        background-color: #000000;
+    }
+    100% {
+        background-color: #000000;
+        border: 1px solid #000000;
+        color: #fff;
+    }
+}
+
+
+/*telephone*/
+
+.telephone
+{
+    color: #11698e;
+    border: 1px solid #11698e;
+}
+
+.telephone:hover
+{
+    animation: telephoneAnim 0.4s normal forwards linear;
+    -webkit-animation: telephoneAnim 0.4s normal forwards linear;
+}
+
+@keyframes telephoneAnim {
+    50% {
+        background-color: #11698e;
+    }
+    100% {
+        background-color: #11698e;
+        border: 1px solid #11698e;
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes telephoneAnim {
+    50% {
+        background-color: #11698e;
+    }
+    100% {
+        background-color: #11698e;
+        border: 1px solid #11698e;
         color: #fff;
     }
 }
