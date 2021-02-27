@@ -470,6 +470,41 @@ img {
     }
 }
 
+/*location*/
+
+.location
+{
+    color: #109648;
+    border: 1px solid #109648;
+}
+
+.location:hover
+{
+    animation: locationAnim 0.4s normal forwards linear;
+    -webkit-animation: locationAnim 0.4s normal forwards linear;
+}
+
+@keyframes locationAnim {
+    50% {
+        background-color: #109648;
+    }
+    100% {
+        background-color: #109648;
+        border: 1px solid #109648;
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes locationAnim {
+    50% {
+        background-color: #109648;
+    }
+    100% {
+        background-color: #109648;
+        border: 1px solid #109648;
+        color: #fff;
+    }
+}
 
 /*========== FOOTER ==========*/
 .footer__container {
