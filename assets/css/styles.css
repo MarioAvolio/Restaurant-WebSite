@@ -391,7 +391,7 @@ img {
     border-radius: .5rem 0 .5rem 0;
 }
 
-.typeMenu{
+.typeMenu {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -400,18 +400,16 @@ img {
 
 /* div styles for presentation */
 
-.contact__button
-{
+.contact__button {
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
 }
 
-.button-big
-{
+.button-big {
     font-size: 2.5em;
     width: 4em;
-    text-align:center;
+    text-align: center;
     padding: 0.2em 0em 0.2em 0em;
 }
 
@@ -436,14 +434,12 @@ img {
 }
 
 /* Facebook class and animation */
-.facebook
-{
+.facebook {
     color: #3B5998;
     border: 1px solid #3B5998;
 }
 
-.facebook:hover
-{
+.facebook:hover {
     animation: facebookAnim 0.4s normal forwards linear;
     -webkit-animation: facebookAnim 0.4s normal forwards linear;
 }
@@ -472,14 +468,12 @@ img {
 
 /*location*/
 
-.location
-{
+.location {
     color: #fa1e0e;
     border: 1px solid #fa1e0e;
 }
 
-.location:hover
-{
+.location:hover {
     animation: locationAnim 0.4s normal forwards linear;
     -webkit-animation: locationAnim 0.4s normal forwards linear;
 }
@@ -507,14 +501,12 @@ img {
 }
 
 /*whatsapp*/
-.whatsapp
-{
+.whatsapp {
     color: #25D366;
     border: 1px solid #25D366;
 }
 
-.whatsapp:hover
-{
+.whatsapp:hover {
     animation: whatsappAnim 0.4s normal forwards linear;
     -webkit-animation: whatsappAnim 0.4s normal forwards linear;
 }
@@ -543,14 +535,12 @@ img {
 
 /*email*/
 
-.email
-{
+.email {
     color: #000000;
     border: 1px solid #000000;
 }
 
-.email:hover
-{
+.email:hover {
     animation: emailAnim 0.4s normal forwards linear;
     -webkit-animation: emailAnim 0.4s normal forwards linear;
 }
@@ -580,14 +570,12 @@ img {
 
 /*telephone*/
 
-.telephone
-{
+.telephone {
     color: #11698e;
     border: 1px solid #11698e;
 }
 
-.telephone:hover
-{
+.telephone:hover {
     animation: telephoneAnim 0.4s normal forwards linear;
     -webkit-animation: telephoneAnim 0.4s normal forwards linear;
 }
