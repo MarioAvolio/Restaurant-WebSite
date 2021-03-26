@@ -664,10 +664,6 @@ img {
     align-items: center;
   }
 
-  .home_data {
-    text-align: center;
-  }
-
   .about__data,
   .about__initial,
   .app__data,
@@ -778,5 +774,11 @@ img {
 @media screen and (max-width: 480px) {
   .social-data {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home__data {
+    text-align: center;
   }
 }
