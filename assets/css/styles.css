@@ -655,6 +655,11 @@ img {
   margin-top: 3.5rem;
 }
 
+.footer__copy a:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
+
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
   .home__container,
